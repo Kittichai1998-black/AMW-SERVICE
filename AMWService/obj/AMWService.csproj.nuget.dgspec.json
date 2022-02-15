@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\6401039\\Desktop\\TestProject\\AMWService\\AMWService\\AMWService.csproj": {}
+    "C:\\Users\\6401039\\Source\\Repos\\AMW-SERVICE\\AMWService\\AMWService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\6401039\\Desktop\\TestProject\\AMWService\\AMWService\\AMWService.csproj": {
+    "C:\\Users\\6401039\\Source\\Repos\\AMW-SERVICE\\AMWService\\AMWService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\6401039\\Desktop\\TestProject\\AMWService\\AMWService\\AMWService.csproj",
+        "projectUniqueName": "C:\\Users\\6401039\\Source\\Repos\\AMW-SERVICE\\AMWService\\AMWService.csproj",
         "projectName": "AMWService",
-        "projectPath": "C:\\Users\\6401039\\Desktop\\TestProject\\AMWService\\AMWService\\AMWService.csproj",
+        "projectPath": "C:\\Users\\6401039\\Source\\Repos\\AMW-SERVICE\\AMWService\\AMWService.csproj",
         "packagesPath": "C:\\Users\\6401039\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\6401039\\Desktop\\TestProject\\AMWService\\AMWService\\obj\\",
+        "outputPath": "C:\\Users\\6401039\\Source\\Repos\\AMW-SERVICE\\AMWService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\6401039\\AppData\\Roaming\\NuGet\\NuGet.Config",
