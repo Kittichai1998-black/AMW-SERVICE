@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = AMWService
-build_property.ProjectDir = C:\Users\6401039\Source\Repos\AMW-SERVICE\AMWService\
+build_property.ProjectDir = C:\Users\6401039\source\repos\AMW-SERVICE\AMWService\

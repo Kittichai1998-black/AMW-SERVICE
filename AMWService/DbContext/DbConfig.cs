@@ -14,5 +14,7 @@ namespace AMWService.DbContext
         {
             base.OnModelCreating(builder);
         }
+
+        public DbSet<Models.CreateSO>ServiceOrder { get; set; }
     }
 }

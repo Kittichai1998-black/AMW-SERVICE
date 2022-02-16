@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\6401039\\Source\\Repos\\AMW-SERVICE\\AMWService\\AMWService.csproj": {}
+    "C:\\Users\\6401039\\Source\\Repos\\AMW-Service\\AMWService\\AMWService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\6401039\\Source\\Repos\\AMW-SERVICE\\AMWService\\AMWService.csproj": {
+    "C:\\Users\\6401039\\Source\\Repos\\AMW-Service\\AMWService\\AMWService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\6401039\\Source\\Repos\\AMW-SERVICE\\AMWService\\AMWService.csproj",
+        "projectUniqueName": "C:\\Users\\6401039\\Source\\Repos\\AMW-Service\\AMWService\\AMWService.csproj",
         "projectName": "AMWService",
-        "projectPath": "C:\\Users\\6401039\\Source\\Repos\\AMW-SERVICE\\AMWService\\AMWService.csproj",
+        "projectPath": "C:\\Users\\6401039\\Source\\Repos\\AMW-Service\\AMWService\\AMWService.csproj",
         "packagesPath": "C:\\Users\\6401039\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\6401039\\Source\\Repos\\AMW-SERVICE\\AMWService\\obj\\",
+        "outputPath": "C:\\Users\\6401039\\Source\\Repos\\AMW-Service\\AMWService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\6401039\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,6 +52,10 @@
               "target": "Package",
               "version": "[5.0.13, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.14, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.13, )"
@@ -60,7 +64,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.13, )"
+              "version": "[5.0.14, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
