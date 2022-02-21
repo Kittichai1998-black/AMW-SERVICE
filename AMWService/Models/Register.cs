@@ -16,5 +16,6 @@ namespace AMWService.Models
         [EmailAddress]
         [Required(ErrorMessage = "Email is requied")]
         public string Email { get; set; }
+        public string Department { get; set; }
     }
 }

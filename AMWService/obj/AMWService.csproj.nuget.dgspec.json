@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\6401039\\Desktop\\TestProject\\AMWService\\AMWService\\AMWService.csproj": {}
+    "C:\\Users\\6401039\\Desktop\\AMW-Service\\AMWService\\AMWService\\AMWService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\6401039\\Desktop\\TestProject\\AMWService\\AMWService\\AMWService.csproj": {
+    "C:\\Users\\6401039\\Desktop\\AMW-Service\\AMWService\\AMWService\\AMWService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\6401039\\Desktop\\TestProject\\AMWService\\AMWService\\AMWService.csproj",
+        "projectUniqueName": "C:\\Users\\6401039\\Desktop\\AMW-Service\\AMWService\\AMWService\\AMWService.csproj",
         "projectName": "AMWService",
-        "projectPath": "C:\\Users\\6401039\\Desktop\\TestProject\\AMWService\\AMWService\\AMWService.csproj",
+        "projectPath": "C:\\Users\\6401039\\Desktop\\AMW-Service\\AMWService\\AMWService\\AMWService.csproj",
         "packagesPath": "C:\\Users\\6401039\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\6401039\\Desktop\\TestProject\\AMWService\\AMWService\\obj\\",
+        "outputPath": "C:\\Users\\6401039\\Desktop\\AMW-Service\\AMWService\\AMWService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\6401039\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -42,7 +42,7 @@
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[5.0.13, )"
+              "version": "[5.0.14, )"
             },
             "Microsoft.AspNetCore.Identity": {
               "target": "Package",
@@ -50,21 +50,37 @@
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.13, )"
+              "version": "[5.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.14, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.13, )"
+              "version": "[5.0.12, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.13, )"
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Contracts": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
             }
           },
           "imports": [

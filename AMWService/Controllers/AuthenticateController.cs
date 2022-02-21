@@ -12,6 +12,8 @@ using System.IdentityModel.Tokens.Jwt;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using AMWService.Models;
+using AMWService.DbContext;
+using Microsoft.EntityFrameworkCore;
 
 namespace AMWService.Controllers
 {
@@ -21,12 +23,20 @@ namespace AMWService.Controllers
     {
         private readonly UserManager<User> _userManager;
         private readonly IConfiguration _configuration;
+        private readonly DbConfig _context;
 
-        public AuthenticateController(UserManager<User>userManager, IConfiguration configuration)
+        public AuthenticateController(UserManager<User>userManager, IConfiguration configuration,DbConfig context)
         {
             _userManager = userManager;
             _configuration = configuration;
+            _context = context;
         }
+
+        //[HttpGet("GetUser")]
+        //public async Task<ActionResult<IEnumerable<UserOwner>>> Getamv_User()
+        //{
+        //    return await _context.amv_User.ToListAsync();
+        //}
 
         [HttpPost]
         [Route("Register")]
@@ -42,8 +52,9 @@ namespace AMWService.Controllers
             {
                 Email = model.Email,
                 SecurityStamp = Guid.NewGuid().ToString(),
-                UserName = model.Username
+                UserName = model.Username,
             };
+
             var result = await _userManager.CreateAsync(user, model.Password);  
             if (!result.Succeeded)
             {

@@ -17,6 +17,8 @@ using Microsoft.AspNetCore.Identity;
 using AMWService.IdentityAuth;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using Microsoft.Extensions.FileProviders;
+using System.IO;
 
 namespace AMWService
 {
@@ -122,6 +124,12 @@ namespace AMWService
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseStaticFiles(new StaticFileOptions
+            {
+                FileProvider = new PhysicalFileProvider(Path.Combine(env.ContentRootPath, "Images")),
+                RequestPath = "/Images"
+            });
 
             app.UseAuthentication();
             app.UseAuthorization();
